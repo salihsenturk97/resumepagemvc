@@ -1,0 +1,131 @@
+﻿@using MvcCv.Models.Entity
+@model List<socialmedia>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@{
+    string activePassive = "";
+}]
+<!DOCTYPE html>
+<html>
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <!-- Main content -->
+        <section class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Sosyal Medya Hesap Listem</h3>
+                            </div>
+                            <!-- /.card-header -->
+                            <div class="card-body">
+                                <button class="btn btn-info" data-toggle="modal" data-target="#Modal1">Yeni Sosyal Medya Ekle</button>
+                                <br />
+                                <br />
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 10px">#</th>
+                                            <th>Sosyal Medya</th>
+                                            <th>Durum</th>
+                                            <th>Düzenle</th>
+                                            <th>Sil</th>
+                                            <th>Aktif-Pasif</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+
+                                            <tr>
+                                                <td>@item.ID</td>
+                                                <td>@item.name</td>
+                                                @if (item.isActiv == true)
+                                                {
+                                                    activePassive = "Aktif";
+                                                    <td class="text-success"> <i class="fas fa-check"></i> @activePassive</td>
+                                                }
+                                                else
+                                                {
+                                                    activePassive = "Pasif";
+                                                    <td class="text-warning"><i class="fas fa-ban"></i> @activePassive</td>
+                                                }
+
+                                                <td>
+                                                    <a class="btn btn-info btn sm" href="/SocialMedia/GetSocialMedia/@item.ID">
+                                                        <i class="fas fa-pencil-alt">
+                                                        </i>
+                                                        Düzenle
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a class="btn btn-danger btn sm" href="/SocialMedia/DeleteSocialMedia/@item.ID">
+                                                        <i class="fas fa-trash-alt">
+                                                        </i>
+                                                        Sil
+                                                    </a>
+                                                </td>
+                                                @if (item.isActiv == true)
+                                                {
+                                                    <td>
+                                                        <a class="btn btn-warning btn-sm" href="/SocialMedia/PassiveActiveSocialMedia/@item.ID">
+                                                            <i class="fas fa-ban"></i>
+                                                            Pasif Yap
+                                                        </a>
+                                                    </td>
+                                                }
+                                                else
+                                                {
+                                                    <td>
+                                                        <a class="btn btn-success btn-sm" href="/SocialMedia/PassiveActiveSocialMedia/@item.ID">
+                                                            <i class="fas fa-check"></i>
+                                                            Aktif Yap
+                                                        </a>
+                                                    </td>
+                                                }
+
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                </div>
+            </div><!-- /.container-fluid -->
+        </section>
+        <!-- /.content -->
+
+        <div class="modal" id="Modal1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Sosyal Medya Ekle</h2>
+                    </div>
+                    <form method="post" action="/SocialMedia/AddSocialMedia">
+                        <div class="modal-body">
+                            <label>Sosyal Medya İsmi</label>
+                            <input type="text" name="name" class="form-control" />
+                            <br />
+                            <label>Sosyal Medya Linki</label>
+                            <input type="text" name="link" class="form-control" />
+
+                            <br />
+                            <label>Sosyal Medya Icon</label>
+                            <input type="text" name="icon" class="form-control" />
+
+                            <button class="btn btn-info">Kaydet</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

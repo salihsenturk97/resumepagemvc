@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="resumeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="about">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="30" />
+    <Property Name="surname" Type="varchar" MaxLength="30" />
+    <Property Name="address" Type="varchar" MaxLength="100" />
+    <Property Name="phone" Type="varchar" MaxLength="20" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="description" Type="varchar(max)" />
+    <Property Name="profilephoto" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="20" />
+    <Property Name="password" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="certificate">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date" Type="varchar" MaxLength="30" />
+    <Property Name="description" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="contact">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="fullname" Type="varchar" MaxLength="100" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="subject" Type="varchar" MaxLength="100" />
+    <Property Name="message" Type="varchar" MaxLength="1000" />
+    <Property Name="date" Type="date" />
+  </EntityType>
+  <EntityType Name="education">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="100" />
+    <Property Name="subtitle1" Type="varchar" MaxLength="100" />
+    <Property Name="subtitle2" Type="varchar" MaxLength="100" />
+    <Property Name="GNO" Type="varchar" MaxLength="10" />
+    <Property Name="date" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="experience">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="100" />
+    <Property Name="subtitle" Type="varchar" MaxLength="100" />
+    <Property Name="description" Type="varchar(max)" />
+    <Property Name="date" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="hobby">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="description1" Type="varchar" MaxLength="500" />
+    <Property Name="description2" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="skill">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="skill" Type="varchar" MaxLength="100" />
+    <Property Name="ratio" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="socialmedia">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="30" />
+    <Property Name="link" Type="varchar" MaxLength="50" />
+    <Property Name="icon" Type="varchar" MaxLength="30" />
+    <Property Name="isActiv" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="resumeModelStoreContainer">
+    <EntitySet Name="about" EntityType="Self.about" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="admin" EntityType="Self.admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="certificate" EntityType="Self.certificate" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="contact" EntityType="Self.contact" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="education" EntityType="Self.education" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="experience" EntityType="Self.experience" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="hobby" EntityType="Self.hobby" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="skill" EntityType="Self.skill" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="socialmedia" EntityType="Self.socialmedia" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,306 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Salih\\source\\repos\\MvcCv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|c:\\users\\salih\\source\\repos\\mvccv\\mvccv\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|c:\\users\\salih\\source\\repos\\mvccv\\mvccv\\controllers\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\controllers\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|c:\\users\\salih\\source\\repos\\mvccv\\mvccv\\controllers\\hobbycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\controllers\\hobbycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|c:\\users\\salih\\source\\repos\\mvccv\\mvccv\\controllers\\experiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\controllers\\experiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|C:\\Users\\Salih\\source\\repos\\MvcCv\\mvccv\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|C:\\Users\\Salih\\source\\repos\\MvcCv\\mvccv\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|c:\\users\\salih\\source\\repos\\mvccv\\mvccv\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|c:\\users\\salih\\source\\repos\\mvccv\\mvccv\\views\\default\\skill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\views\\default\\skill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|c:\\users\\salih\\source\\repos\\mvccv\\mvccv\\views\\default\\experience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\views\\default\\experience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|c:\\users\\salih\\source\\repos\\mvccv\\mvccv\\views\\default\\certificate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\views\\default\\certificate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|C:\\Users\\Salih\\source\\repos\\MvcCv\\mvccv\\controllers\\certificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\controllers\\certificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|C:\\Users\\Salih\\source\\repos\\MvcCv\\mvccv\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|C:\\Users\\Salih\\source\\repos\\MvcCv\\mvccv\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|C:\\Users\\Salih\\source\\repos\\MvcCv\\mvccv\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|C:\\Users\\Salih\\source\\repos\\MvcCv\\mvccv\\views\\admin\\updateadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\views\\admin\\updateadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|C:\\Users\\Salih\\source\\repos\\MvcCv\\mvccv\\views\\admin\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\views\\admin\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|C:\\Users\\Salih\\source\\repos\\MvcCv\\mvccv\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53BA6F0C-3536-4D4E-9B84-0E3A30C77CA3}|MvcCv\\MvcCv.csproj|solutionrelative:mvccv\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Web.config",
+              "RelativeDocumentMoniker": "MvcCv\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Web.config",
+              "RelativeToolTip": "MvcCv\\Views\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-25T07:59:53.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SkillController.cs",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\SkillController.cs",
+              "RelativeDocumentMoniker": "MvcCv\\Controllers\\SkillController.cs",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\SkillController.cs",
+              "RelativeToolTip": "MvcCv\\Controllers\\SkillController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvwkAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:28:06.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "MvcCv\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "MvcCv\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:26:07.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Skill.cshtml",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Default\\Skill.cshtml",
+              "RelativeDocumentMoniker": "MvcCv\\Views\\Default\\Skill.cshtml",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Default\\Skill.cshtml",
+              "RelativeToolTip": "MvcCv\\Views\\Default\\Skill.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T06:25:53.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Experience.cshtml",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Default\\Experience.cshtml",
+              "RelativeDocumentMoniker": "MvcCv\\Views\\Default\\Experience.cshtml",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Default\\Experience.cshtml",
+              "RelativeToolTip": "MvcCv\\Views\\Default\\Experience.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T06:25:46.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Certificate.cshtml",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Default\\Certificate.cshtml",
+              "RelativeDocumentMoniker": "MvcCv\\Views\\Default\\Certificate.cshtml",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Default\\Certificate.cshtml",
+              "RelativeToolTip": "MvcCv\\Views\\Default\\Certificate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T06:25:42.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExperienceController.cs",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\ExperienceController.cs",
+              "RelativeDocumentMoniker": "MvcCv\\Controllers\\ExperienceController.cs",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\ExperienceController.cs*",
+              "RelativeToolTip": "MvcCv\\Controllers\\ExperienceController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:25:16.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HobbyController.cs",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\HobbyController.cs",
+              "RelativeDocumentMoniker": "MvcCv\\Controllers\\HobbyController.cs",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\HobbyController.cs",
+              "RelativeToolTip": "MvcCv\\Controllers\\HobbyController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:19:31.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "MvcCv\\Controllers\\DefaultController.cs",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\DefaultController.cs*",
+              "RelativeToolTip": "MvcCv\\Controllers\\DefaultController.cs*",
+              "ViewState": "AQIAABwAAAAAAAAAAAAtwDwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:15:15.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "MvcCv\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "MvcCv\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:15:13.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CertificateController.cs",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\CertificateController.cs",
+              "RelativeDocumentMoniker": "MvcCv\\Controllers\\CertificateController.cs",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\CertificateController.cs",
+              "RelativeToolTip": "MvcCv\\Controllers\\CertificateController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:15:07.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "MvcCv\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "MvcCv\\Controllers\\AboutController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T06:14:51.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "MvcCv\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "MvcCv\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAGwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T06:38:34.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Admin\\AddAdmin.cshtml",
+              "RelativeDocumentMoniker": "MvcCv\\Views\\Admin\\AddAdmin.cshtml",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Admin\\AddAdmin.cshtml",
+              "RelativeToolTip": "MvcCv\\Views\\Admin\\AddAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T06:37:59.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcCv\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "MvcCv\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T06:36:21.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Admin\\UpdateAdmin.cshtml",
+              "RelativeDocumentMoniker": "MvcCv\\Views\\Admin\\UpdateAdmin.cshtml",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Views\\Admin\\UpdateAdmin.cshtml",
+              "RelativeToolTip": "MvcCv\\Views\\Admin\\UpdateAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T06:33:09.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MvcCv\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Salih\\source\\repos\\MvcCv\\MvcCv\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MvcCv\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T06:22:14.427Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+﻿@using MvcCv.Models.Entity
+@model List<certificate>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<body class="hold-transition sidebar-mini">
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- /.col -->
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header p-2">
+                        </div><!-- /.card-header -->
+                        <div class="card-body">
+                            <div class="tab-pane" id="timeline">
+                                <!-- The timeline -->
+                                <div class="timeline timeline-inverse">
+                                    <!-- timeline time label -->
+                                    @foreach (var item in Model)
+                                    {
+                                      <div class="time-label">
+                                          <a href="/Certificate/GetCertificate/@item.ID" class="@(item.ID % 2 == 0 ? "btn btn-success" : "btn btn-primary")">
+                                              <span class="@(item.ID % 2 == 0 ? "bg-success" : "bg-primary")">
+                                                  @item.date
+                                              </span>
+                                          </a>
+                                      </div>
+                                        <div>
+                                            @*<i class="fas fa-comment bg-primary"></i>*@
+                                            <div class="timeline-item">
+                                                <div class="timeline-body">
+                                                    @item.description
+                                                </div>
+                                                @*<div class="timeline-footer">
+                                                        <a href="#" class="btn btn-primary btn-sm">Düzenle</a>
+                                                        <a href="#" class="btn btn-danger btn-sm">Sil</a>
+                                                    </div>*@
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                                <a href="/Certificate/AddCertificate" class="btn btn-info">Yeni Sertifika Ekle</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
